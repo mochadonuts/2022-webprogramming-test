@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drawing</title>
+  <link rel="stylesheet" href="canvas.css" />
+</head>
+<body>
+<img src="img/list.png" class="list"><br>
+<div class="body">
+<div>
+  <div class="color-options">
+    <input type="color" id="color" />
+    <div class="color-option" 
+         style="background-color: #8e44ad" 
+         data-color="#8e44ad">
+    </div>
+    <div class="color-option" 
+         style="background-color: #f1c40f"
+         data-color="#f1c40f">
+    </div>
+    <div
+      class="color-option"
+      style="background-color: #e74c3c"
+      data-color="#e74c3c">
+    </div>
+    <div
+      class="color-option"
+      style="background-color: #95a5a6"
+      data-color="#95a5a6">
+    </div>
+    <input id="line-width" type="range" min="1" max="10" value="5" step="0.1" />
+    <div class="btns">
+    <button id="mode-btn">Fill</button>
+    <button id="destroy-btn">Destroy</button>
+    <button id="eraser-btn">Erase</button>
+    <input type="file" accept="image/*" id="file" />
+    <button id="save">Save image</button>
+    </div>
+</div>
+<div class="main">
+  <canvas></canvas>
+  <a href="index.html"><img src="img/right-arrow.png" class="leftarrow"></a>
+  <a href="memo.html"><img src="img/right-arrow.png" class="arrow"></a>
+<script src="canvas.js"></script>
+</div>
+    <!-- 메뉴바 -->
+    <div class="menubar"></div>
+    <div class="menulist">
+        <div class="circle"></div>
+        <a href="index.html" class="menu home">HOME</a>
+        <a href="canvas.html" class="menu addmemo">DRAWING</a>
+        <a href="memo.html" class="menu addmemo">MEMO</a>
+        <a href="todolist.html" class="menu list">TODOLIST</a>                  
+        <a href="wordcloud.html" class="menu wordcloud">WORDCLOUD</a>
+        <a href="pingpong.html" class="menu pingpong">PINGPONG</a>
+    </div>
+    <div>
+</div>
+</body>
+</html>

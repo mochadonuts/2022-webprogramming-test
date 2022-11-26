@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="memo.css">
+  <title>메모장</title>
+  </head>
+  <body>
+    <img src="img/list.png" class="list">
+    <div class="memo">
+      <div class="sec-memo-list">
+        <!-- <h2 class="head-title">MEMO</h2> -->
+        <ul id="memo-list"></ul>
+      </div>
+      <div id="myMemo" class="sec-main">
+        <div id="myMemo" class="sec-memo-area">
+          <input id="title" type="text" placeholder="Title"/>
+          <textarea id="content" name="" id="" cols="30" rows="23" placeholder="text"></textarea>
+          <div class="btn-box">
+            <button id="save-btn" class="btn" type="submit">Save</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">
+      <a href="canvas.html"><img src="img/right-arrow.png" class="leftarrow"></a>
+      <a href="todolist.html"><img src="img/right-arrow.png" class="arrow"></a>
+    </div>
+    <!-- 메뉴바 -->
+    <div class="menubar"></div>
+      <div class="menulist">
+        <div class="circle"></div>
+        <a href="index.html" class="menu home">HOME</a>
+        <a href="canvas.html" class="menu addmemo">DRAWING</a>
+        <a href="memo.html" class="menu addmemo">MEMO</a>
+        <a href="todolist.html" class="menu list">TODOLIST</a>                  
+        <a href="wordcloud.html" class="menu wordcloud">WORDCLOUD</a>
+        <a href="pingpong.html" class="menu pingpong">PINGPONG</a>
+      </div>
+    <script src="memo.js"></script>
+    </body>
+</html>
