@@ -1,4 +1,8 @@
-
+html {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica
+                Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+                Apple Chancery;
+}
 /* 메뉴 햄버거 아이콘 */
 img.list {
     width: 50px;
