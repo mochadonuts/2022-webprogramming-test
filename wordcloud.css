@@ -21,7 +21,7 @@ img.list {
     width: 50px;
     padding: 25px;
     left: 1100px;
-    top: -550px;
+    top: -650px;
   }
   
   img.leftarrow {
@@ -37,13 +37,13 @@ img.list {
     width: 50px;
     padding: 25px;
     left: -90px;
-    top: -550px;
+    top: -650px;
   }
   
   /* 하단바 */
   .menubar {
     margin: auto;
-    margin-top: -150px;
+    margin-top: -400px;
     width: 1200px;
     height: 10px;
     background-color: rgb(255, 255, 255);
